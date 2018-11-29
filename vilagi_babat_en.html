@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/costum.css">
+  <script src="js/jquery-3.1.1.slim.min.js"></script>
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+  <script src="js/jquery.fancybox.min.js"></script>
+  <link rel="stylesheet" href="css/lightbox.min.css">
+  <title></title>
+
+</head>
+<body class="iframe_tartalmak" name="tartalmak">
+
+  <input type = "button" value = "Normal font size" id = "small" class="btn"/> <input type = "button" value = "Large font size" id = "normal" class="btn"/> <input type = "button" value = "Extra Large font size" id = "large" class="btn"/>
+
+  <h1>Babat</h1><br>
+  <p id="szoveg">
+    Between the 11-13th centuries there was a village with a stone church in the valley of the Aranyos stream. The time of the formation and destruction of the settlement could not be accurately determined on the basis of archaeological finds. The treasure trove of coins  unearthed at the turn of the century and the pottery fragments uncovered at the excavations of 1991 are from the early and middle Árpád-era. The settlement lasted only until the 14th century.<br><br>
+    Its first written reference comes from the perambulation of Veresegyház and Szada in 1430, where it is mentioned as Babd valley. According to the certificate the owner of Babd valley at that time was Mátyás, son of Miklós Hatwani, the landlord of Besnyő. At the end of the 16th century, as it is in the census of the sanjak of Buda,  Boba, i.e. Babat puszta (field) was the plough field of Besnyő. From the  17th century  the history of the Babat was intertwined with Gödöllő. In 1643 it was in the ownership of István Vámossy and his wife Erzsébet Aszalay as the field of Gödöllő, together with Besnyő and Zalaegerszeg puszta (field). <br><br>
+    The Árpád-era church had a semi-circular apse with a rectangular nave, and around 30 people could fit there. The titular saint is unknown. The cemetery surrounding the church was used by the village for a long time. Based on the excavated graves it can be said - although we cannot generalize - that the examined women were tall, and the men were of middle height. The people living here often suffered from joint diseases.<br><br>
+    Although the medieval inhabitants not, the church was kept in memory for many centuries. Its depiction can be found on a map made at the end of the 18th century, during the time of Antal Grassalkovich I. Later the land became a plough field, and was called Templom-tábla (Church field), where findings from the Árpád-era village continuously came out during cultivation.<br><br>
+
+
+  </p>
+<center><div id="gallery">
+     
+  </div></center>
+
+  <script>
+  var content = document.getElementById("szoveg");
+  var smallButton = document.getElementById("small");
+  var normalButton = document.getElementById("normal");
+  var largeButton = document.getElementById("large");
+  smallButton.onclick = function(e){
+  content.style.fontSize = "26px";
+  }
+  normalButton.onclick = function(e){
+  content.style.fontSize = "33px";
+  }
+  largeButton.onclick = function(e){
+  content.style.fontSize = "40px";
+  }
+  </script>
+
+
+  <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script src="js/jquery-3.1.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

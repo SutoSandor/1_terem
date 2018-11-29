@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/costum.css">
+  <script src="js/jquery-3.1.1.slim.min.js"></script>
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+  <script src="js/jquery.fancybox.min.js"></script>
+
+  <title>Tartalom</title>
+
+</head>
+<body class="iframe_tartalmak" name="tartalmak">
+
+  <input type = "button" value = "Normal font size" id = "small" class="btn"/> <input type = "button" value = "Large font size" id = "normal" class="btn"/> <input type = "button" value = "Extra Large font size" id = "large" class="btn"/>
+
+  <h1>Gödöllő in the time of the Hungarian conquest</h1>
+  <br>
+
+  <p id="szoveg">
+  The Hungarian tribal alliance occupied the part of the Carpathian Basin east of the Danube in 895-896, and in 900 the reign of Transdanubia was theirs as well. We do not know which tribe settled in the area of Gödöllő, because there are no written information regarding it. However, the presence of our conqueror  ancestors is not only indicated by settlement-traces, but by burials also. The dead woman unearthed from a women's tomb in 1877, based on her costume objects (silver hair ornaments, leaf-shaped gold-plated silver pendants, a button), belonged to the leading middle class,  the tomb can be dated by a silver denarius of Athelstan, the Anglo-Saxon king (925-941).  The man who was buried in the Öreg- hegy could have a comparable rank, he was buried together with his weapons and harnessed horse. His tomb was found in 1911. At the same place in 2005 during building work a tomb was disturbed, which contained a pair of pear-shaped brackets. In Máriabesnyő a richly equipped  female tomb was found in 1978.
+
+
+  </p>
+
+  <script>
+  var content = document.getElementById("szoveg");
+  var smallButton = document.getElementById("small");
+  var normalButton = document.getElementById("normal");
+  var largeButton = document.getElementById("large");
+  smallButton.onclick = function(e){
+  content.style.fontSize = "26px";
+  }
+  normalButton.onclick = function(e){
+  content.style.fontSize = "33px";
+  }
+  largeButton.onclick = function(e){
+  content.style.fontSize = "40px";
+  }
+  </script>
+
+
+    <script src="js/jquery-3.1.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

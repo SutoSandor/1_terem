@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/costum.css">
+  <script src="js/jquery-3.1.1.slim.min.js"></script>
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+  <script src="js/jquery.fancybox.min.js"></script>
+
+  <title>Tartalom</title>
+
+</head>
+<body class="iframe_tartalmak" name="tartalmak">
+
+  <input type = "button" value = "Normal font size" id = "small" class="btn"/> <input type = "button" value = "Large font size" id = "normal" class="btn"/> <input type = "button" value = "Extra Large font size" id = "large" class="btn"/>
+
+  <h1>Gödöllő in the Middle Ages</h1>
+  <br>
+
+  <p id="szoveg">
+  Gödöllő was a settlement, a village, that has been inhabited from the Árpád-era. Over time many families owned the area. Often it had more owners, who shared the incomes from the village. The imprint of the operation of the village community is the person of the judge. In 1430 László, and in 1456 András was the first man in the village
+  <br><br>
+  Based on the medieval archaeological sites in the area of today's Gödöllő there were five villages, or rather farmsteads during the 10-13th centuries.  The archeological findings of the settlement by the Rákos stream, at the place of today's city center (Alsópark, Szabadság Square, Petőfi Sándor Street), date back to the 12th century
+  <br><br>
+  Gödöllő was first mentioned in a certificate in 1349. That was when Louis the Great, after the former owner, the Zada family branch became extinct in the male line, donated half of Szada (Zada) and Gödöllő (Gudulleu) to Péter Pohárus court soldier, the lord-lieutenant of Abauj County. The inauguration took place in 1352. Péter Pohárus donated a part of his new property to Dénes son of György. From this era we also know as owners the family of Gudulleu.
+  <br><br>
+  After the extinction of the Pohárus family the estate reverted to the king. Zsigmond donated the land to his wife, Borbála Cillei, so from 1424 until her death in 1451 Queen Borbála was the landlord of Gödöllő. Two years later, László V. donated the estate to János Rozgonyi, voivode of Transylvania, and his brothers. The estate then contained the following villages and fields: Gödöllő, Isaszeg, Tura, Zsidó (today Vácegres) Mácsa, Veresegyház, Szada, Szentlászló, Valkó, Bag, Nyír, Szörény, Monostor and Oszlár
+  <br><br>
+  After the extinction of the Rozgonyi male line in 1492 the estate returned to the king. By then the landlord of Besnyő, the Hatvani family was also a part owner of the village. We know the village inventory of 1492, from which the image of contemporary Gödöllő can be outlined. Five serf families lived on the settlement, together with cotters the population was an estimated 40-75 people. On nine farms there were still buildings, but residents not any more. The ten greens farms were long ago abandoned by the people living there. The village community besides the plough field had field pasture, meadow and forest use rights for two royal aratrum (approx. 250 hectares) of forest. On the vineyards (which is supposed to be the Margita) a significant area was cultivated. The village had a stone church with a tower and cemetery. Its well's water was a protected, cared for natural spring. The church and the cemetery was located in the area between the castle chapel and the highway, the well could be the spring that later provided the Baroque beer house with water.
+  <br><br>
+  The Ottoman rule brought a larger change in the life of the population of Gödöllő, the 1546 sandjak census recorded only three families.
+  </p>
+
+  <script>
+  var content = document.getElementById("szoveg");
+  var smallButton = document.getElementById("small");
+  var normalButton = document.getElementById("normal");
+  var largeButton = document.getElementById("large");
+  smallButton.onclick = function(e){
+  content.style.fontSize = "26px";
+  }
+  normalButton.onclick = function(e){
+  content.style.fontSize = "33px";
+  }
+  largeButton.onclick = function(e){
+  content.style.fontSize = "40px";
+  }
+  </script>
+
+
+    <script src="js/jquery-3.1.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

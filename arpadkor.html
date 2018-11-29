@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/costum.css">
+  <script src="js/jquery-3.1.1.slim.min.js"></script>
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+  <script src="js/jquery.fancybox.min.js"></script>
+
+  <title>Tartalom</title>
+
+</head>
+<body class="iframe_tartalmak" name="tartalmak">
+
+  <input type = "button" value = "Normál betűméret" id = "small" class="btn"/> <input type = "button" value = "Nagy betűméret" id = "normal" class="btn"/> <input type = "button" value = "Extranagy betűméret" id = "large" class="btn"/>
+
+  <h1>Árpád kori emlékek</h1>
+  <br>
+
+  <p id="szoveg">
+  Gödöllő határában, a várostól északkeletre helyezkedett el az Árpád-kori Babat falu.<br><br>
+  A falu nyomai korábbiak Gödöllőnél, 10-11. századi cserepeket is találtak itt. ÉK-DNy-i tájolású, kisméretű, torony nélküli temploma – az 1991. évi feltárás alapján – 9,8 m hosszú, 6–6,3 m széles volt, és homokkőből épült. A homokkő üledékes kőzet, 2,0-0,06 mm szemcseméretű elemekből áll, melyeket kötőanyag ragaszt össze. Jellegzetessége, hogy az elegyrészek szabad szemmel megkülönböztethetőek. Lényeges elegyrészei: kvarc, földpát, csillám és kalcit.
+  <br><br>
+  A falu lakói a templom köré temetkeztek. Babat legkésőbb a késő középkor elején elnéptelenedett.<br><br>
+  A babati templomról készült digitális rekonstrukció animációját a digitális képkereten tekintheti meg. <br><br>
+  <br><b>A középkori Gödöllő</b><br><br>
+  A mai város keleti szélén jött létre a középkori Besenyő falu. Első írásos említését 1345-ből ismerjük, amikor I. Lajos király Nelepcs-i Ivánnak adományozta. Az ezt követő 200 évben a település nevét többször említik oklevelekben és határjárásokban. Véglegesen a 16. sz. végén, a 15 éves háború alatt pusztult el. A 2000-es évek elején a lelőhely északi részén, az incsői lakópark építése során számos, az egykori faluban folyó életre utaló régészeti leletet (agyagedények, kályhaszemek és kályhacsempék, vasból készült eszközök) találtak a kutatók.<br><br>
+  A mai település középkori elődjét a mostani városközpontban és környékén kereshetjük, pontos kiterjedését a beépítettség miatt nem ismerjük. A régészeti leletek arra utalnak, hogy a településen már a 12–13. században éltek. Első biztos, írásos említése ugyanakkor csak 1349-ből származik, amikor I. Lajos király az örökös nélkül meghalt Zada-i Péter fia Tamás földbirtokos – Szada és Gödöllő (Gudulleu) nevű – birtokát Poharus Péternek, Abaúj vármegye főispánjának adományozta. A Poharus család kihalásakor Zsigmond király 1424-ben Gödöllőt második feleségének, Cillei Borbálának adományozta, majd annak halála után a Rozgonyiak birtoka lett. Gödöllő középkori templomát, amelyet egy 1492-ből származó forrás említ, a Grassalkovich kastély építésekor bontották le, helyére épült a mai kastélykápolna. A templom körüli temető sírjait megbolygatták 1967-ben vízvezeték árok ásásakor. A sírokban talált gyöngyös párták alapján a temetkezések a 16–17. században történtek.
+
+  </p>
+
+  <script>
+  var content = document.getElementById("szoveg");
+  var smallButton = document.getElementById("small");
+  var normalButton = document.getElementById("normal");
+  var largeButton = document.getElementById("large");
+  smallButton.onclick = function(e){
+  content.style.fontSize = "26px";
+  }
+  normalButton.onclick = function(e){
+  content.style.fontSize = "33px";
+  }
+  largeButton.onclick = function(e){
+  content.style.fontSize = "40px";
+  }
+  </script>
+
+
+    <script src="js/jquery-3.1.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

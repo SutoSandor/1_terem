@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/costum.css">
+  <script src="js/jquery-3.1.1.slim.min.js"></script>
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+  <script src="js/jquery.fancybox.min.js"></script>
+  <link rel="stylesheet" href="css/lightbox.min.css">
+  <title></title>
+
+</head>
+<body class="iframe_tartalmak" name="tartalmak">
+
+  <input type = "button" value = "Normal font size" id = "small" class="btn"/> <input type = "button" value = "Large font size" id = "normal" class="btn"/> <input type = "button" value = "Extra Large font size" id = "large" class="btn"/>
+
+  <h1>Charters before Mohács (before 1526)</h1><br>
+  <p id="szoveg">
+    The first mention of Gödöllő (Gudulleu) in a charter dates back to 1349. The village was formerly in the hand of the Zada family. After the extinction of the family's male line, the estate reverted to the monarch, then Louis I (the Great) donated it to Peter Pohárus court soldier, the lord-lieutenant of Abaúj County. <br><br>
+    Besnyő was first mentioned in 1345, when Louis the Great, together with customs rights donated it to Iván Nelepcsi. Babat's first written record is from 1430, it appears in a charter reporting the perambulation of Gödöllő and Szada.<br><br>
+    From these written sources it is not just Gödöllő's landlords that we can learn. Geographical names, a resident of Gödöllő, perambulation reports or the description of the settlement itself also appear in these charters.<br><br>
+  </p>
+<center><div id="gallery">
+     
+  </div></center>
+
+  <script>
+  var content = document.getElementById("szoveg");
+  var smallButton = document.getElementById("small");
+  var normalButton = document.getElementById("normal");
+  var largeButton = document.getElementById("large");
+  smallButton.onclick = function(e){
+  content.style.fontSize = "26px";
+  }
+  normalButton.onclick = function(e){
+  content.style.fontSize = "33px";
+  }
+  largeButton.onclick = function(e){
+  content.style.fontSize = "40px";
+  }
+  </script>
+
+
+  <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script src="js/jquery-3.1.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

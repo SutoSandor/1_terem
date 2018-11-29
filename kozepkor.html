@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/costum.css">
+  <script src="js/jquery-3.1.1.slim.min.js"></script>
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+  <script src="js/jquery.fancybox.min.js"></script>
+
+  <title>Tartalom</title>
+
+</head>
+<body class="iframe_tartalmak" name="tartalmak">
+
+  <input type = "button" value = "Normál betűméret" id = "small" class="btn"/> <input type = "button" value = "Nagy betűméret" id = "normal" class="btn"/> <input type = "button" value = "Extranagy betűméret" id = "large" class="btn"/>
+
+  <h1>Gödöllő a középkorban</h1>
+  <br>
+
+  <p id="szoveg">
+  Gödöllő az Árpád-kortól lakott település, falu volt. Az idők során számos család birtokolta területét. Gyakran egyszerre több ura is volt, akik osztoztak a faluból befolyt jövedelmeken. A faluközösség működésének lenyomata a bíró személye. 1430-ban László, 1456-ban pedig András volt a település első embere.<br><br>
+  A középkori régészeti lelőhelyek alapján a mai Gödöllő területén öt falu, illetve több majorság alakult a 10–13. század folyamán. A mai városközpont (Alsópark, Szabadság tér, Petőfi Sándor utca) helyén, a Rákos-patak mentén álló település leletei a 12. századig nyúlnak vissza.<br><br>
+  Gödöllő első okleveles említése 1349-ből maradt fenn. Nagy Lajos ekkor, a korábban birtokos Zada-i család férfiágának kihalása után adományozta Szada felét (Zada) és Gödöllőt (Gudulleu) Pohárus Péter udvari vitéznek, Abauj vármegye főispánjának. A beiktatásra 1352-ben került sor. Új birtokából Pohárus Péter részt adományozott Dénes fia Györgynek. Ebből a korból gödöllői birtokosként ismerjük még a Gudulleu-i családot.<br><br>
+  A Pohárus család kihalásával a birtok visszaszállt a királyra. Zsigmond feleségének, Cillei Borbálának adományozta a területet, így 1424-től az 1451-ben bekövetkezett haláláig Borbála királyné volt Gödöllő földesura. Két évvel később V. László adományaként Rozgonyi János erdélyi vajdának és fivéreinek adta a birtokot. Az uradalom ekkor az alábbi falvakból és pusztákból állt: Gödöllő, Isaszeg, Tura, Zsidó (ma Vácegres), Mácsa, Veresegyház, Szada, Szentlászló, Valkó, Bag, Nyír, Szörény, Monostor és Oszlár.<br><br>
+  A birtok a Rozgonyiaktól is a férfiág kihalása után, 1492-ben került az uralkodó kezére. Ekkorra már a Besnyőn birtokos Hatvani család is részbirtokos volt a településen. Az 1492. esztendőből ismerjük a faluleltárt, mely alapján kirajzolódik a korabeli Gödöllő képe. Öt jobbágycsalád élt ekkor a településen, a zsellérekkel együtt 40-75 főre tehető a lakosság. Kilenc telken még álltak az épületek, de lakói már nem voltak. A tíz pázsittelket pedig réges-rég elhagyták az ott élők. A faluközösségnek a szántóföldön kívül volt legelője, rétje és erdőhasználati joga két királyi ekealj (kb. 250 hektár) erdőre. A szőlőhegyen (ami feltételezhetően a Margita) jelentős területű szőlőt műveltek. A faluban tornyos kőtemplom állt, cinteremmel. Kifolyó kútja védett, gondozott természetes forrás volt. A templom a temetővel a kastélykápolna és az országút közötti területen helyezkedett el, a kút a későbbi, barokk sörházat is tápláló forrás lehetett.<br><br>
+  Nagyobb változást a hódoltság kora hozott a gödöllői lakosság életében, az 1546-os szandzsák összeírás mindössze három családot jegyzett fel.
+  </p>
+
+  <script>
+  var content = document.getElementById("szoveg");
+  var smallButton = document.getElementById("small");
+  var normalButton = document.getElementById("normal");
+  var largeButton = document.getElementById("large");
+  smallButton.onclick = function(e){
+  content.style.fontSize = "26px";
+  }
+  normalButton.onclick = function(e){
+  content.style.fontSize = "33px";
+  }
+  largeButton.onclick = function(e){
+  content.style.fontSize = "40px";
+  }
+  </script>
+
+
+    <script src="js/jquery-3.1.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

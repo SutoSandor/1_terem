@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/costum.css">
+  <title>Tartalom</title>
+
+</head>
+<body class="iframe_tartalmak" name="tartalmak">
+
+  <input type = "button" value = "Normal font size" id = "small" class="btn"/> <input type = "button" value = "Large font size" id = "normal" class="btn"/> <input type = "button" value = "Extra Large font size" id = "large" class="btn"/>
+
+  <h1>Gödöllő in the prehistoric and ancient times up to the Migration Period</h1>
+  <br>
+
+  <p id="szoveg">
+    Gödöllő and its surroundings at different stages in prehistoric times belonged to three major "cultural circles". From the Old Stone Age (Paleolithic 500000-10000 BC) and the transitional Stone Age (Mesolithic 10000-6000 BC) there are no findings in Gödöllő. In our town the first finds are from the middle section of the New Stone Age (Neolithic) between 5400 / 5300 - 5000/4900 BC.
+  <br><br>
+   The people, who settled near rivers and streams dealt with cultivation of crops and animal husbandry. The population belonging to the Transdanubia  Linear culture  lived in the area of the Gödöllő Hills. They lived in wattle, daub-walled houses, and made hand-formed pottery. The appearance of spinning and weaving was important, and in addition to the chipped stone tools they used polished, drilled stone tools as well. Fragments of pottery were found at Malom dűlő and Remete spring  and in the city center also.
+  <br><br>
+    After the spread of the settled lifestyle the invention of metalworking was an enormous development. From the cooler, wetter Copper Age (4500 / 4400-2800 / 2700 BC) the pottery vessels of the Bodrogkeresztúr culture were found. A long-bladed copper knife was found in a tomb discovered in 1926. However, the population had western influences too, which is proven by a stitched ridged decorated pot fragment. In our village there are no findings of the car representations of the Baden / Pécel culture that appeared in the Late Copper Age.
+  <br><br>
+    A key element of the Bronze Age, starting in the middle of the 3rd millennium BC., is the appearance of the new material, bronze, which is made of copper and tin or antimony alloy. The relics of metalwork are the bracelet found in the Öreghegy and the spearhead from Alsómajor. The multi-layered settlements, residential hills that are the hallmarks of the Hatvan culture  were established during the Middle Bronze Age.  Some of the settlements of the culture were defended by fortifications and trenches. Such earthworks can be found in the areas surrounding Gödöllő (Aszód, Pécel, Valkó, Zsámbok). Cremation burial was typical, such inclusions were the two containers kept in our museum. In the 1950's relics of the Late Bronze Age tumulus culture were found in the Alsópark.  
+  <br><br>
+    In and around Gödöllő the use of the potter's wheel and the appearance of the new material, iron, came with the Iranian origin Scythian culture in the early and middle Iron Age  (900-450 BC). In the late Iron Age (around 450 BC) that was closing the prehistoric era,  a large part of the Carpathian Basin was inhabited by the Celtic population coming from Western Europe . In Gödöllő there are several sites proving the appearance of the Celts. Unfortunately, the artifacts found in the 1960s got lost and never found their way to a museum.
+  </p>
+
+
+  <script>
+  var content = document.getElementById("szoveg");
+  var smallButton = document.getElementById("small");
+  var normalButton = document.getElementById("normal");
+  var largeButton = document.getElementById("large");
+  smallButton.onclick = function(e){
+  content.style.fontSize = "26px";
+  }
+  normalButton.onclick = function(e){
+  content.style.fontSize = "33px";
+  }
+  largeButton.onclick = function(e){
+  content.style.fontSize = "40px";
+  }
+  </script>
+
+
+    <script src="js/jquery-3.1.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

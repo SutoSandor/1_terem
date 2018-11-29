@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/costum.css">
+  <script src="js/jquery-3.1.1.slim.min.js"></script>
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+  <script src="js/jquery.fancybox.min.js"></script>
+
+  <title></title>
+
+</head>
+<body class="iframe_tartalmak" name="tartalmak">
+
+  <input type = "button" value = "Normál betűméret" id = "small" class="btn"/> <input type = "button" value = "Nagy betűméret" id = "normal" class="btn"/> <input type = "button" value = "Extranagy betűméret" id = "large" class="btn"/>
+
+  <h1>Kastélykápolna</h1><br>
+  <p id="szoveg">
+    A kápolnát 1749. május 16-án Nepomuki Szent János tiszteletére szentelte fel Althan Mihály Károly váci püspök. A várkápolna kezdetben az Isaszegi Római Katolikus Plébánia filiájaként (fiókegyházaként) működött, vagyis az isaszegi plébános volt a gödöllői katolikus kápolna irányítója, helyben pedig egy káplán végezte a pasztorálást. Az első ismert káplán Pater Maurus Menyhardt szerzetes volt.
+    <br><br>
+    1773 és 1811 között a besnyői kapucinusok közül kerültek ki a káplánok. A váci püspök 1811-ben elrendelte, hogy a várkápolna saját, világi plébánossal működjön. Az önálló plébánia létrejötte 1838-tól számítható.
+    <br><br>
+    A templomban öt oltár van, a főoltárt Nepomuki Szent János tiszteletére szentelték fel. A templom belsejében két kórus van. Az egyiken található az 1827-es orgona, amely az akkori kegyúr, Grassalkovich III. Antalnak az ajándéka, a másik kóruson pedig Krisztus sírját őrizték, amelyet a Nagyhét (a nagyböjt utolsó hete virágvasárnaptól nagyszombatig) szertartásain használtak. A keresztelőkút finoman megmunkált vörös márványból készült. A templom érdekessége a két szószék.
+    <br><br>
+    A harangláb a templomtorony mellett állt, és 4 harang volt benne. A legnagyobb, 4 tonnás harang 1772-ben Pesten készült. Mind a négy Grassalkovich I. Antalnak volt az adománya.
+    <br><br>
+    A 19. század során 1838-ban, majd 1870-ben végeztek nagyobb felújításokat a templomban. Később (az 1930-as években) Schláger Árpád plébános idején renoválták a kastélykápolnát. 1936-ig, a plébániai rang elnyeréséig Máriabesnyő is Gödöllőhöz tartozott.
+    <br><br>
+    A kastélykápolna feladatát napjainkban már a Szentháromság templom látja el.
+
+
+  </p>
+
+
+  <script>
+  var content = document.getElementById("szoveg");
+  var smallButton = document.getElementById("small");
+  var normalButton = document.getElementById("normal");
+  var largeButton = document.getElementById("large");
+  smallButton.onclick = function(e){
+  content.style.fontSize = "26px";
+  }
+  normalButton.onclick = function(e){
+  content.style.fontSize = "33px";
+  }
+  largeButton.onclick = function(e){
+  content.style.fontSize = "40px";
+  }
+  </script>
+
+
+    <script src="js/jquery-3.1.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

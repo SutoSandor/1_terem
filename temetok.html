@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/costum.css">
+  <script src="js/jquery-3.1.1.slim.min.js"></script>
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+  <script src="js/jquery.fancybox.min.js"></script>
+
+  <title>Tartalom</title>
+
+</head>
+<body class="iframe_tartalmak" name="tartalmak">
+
+  <input type = "button" value = "Normál betűméret" id = "small" class="btn"/> <input type = "button" value = "Nagy betűméret" id = "normal" class="btn"/> <input type = "button" value = "Extranagy betűméret" id = "large" class="btn"/>
+
+  <h1>A középkori temetők</h1>
+  <br>
+
+  <p id="szoveg">
+Az Árpád-kori babati település sírleletei mellett Gödöllőnek – az egykor a kastély helyén álló – középkori temploma körül fekvő temetőjét, cintermét ismerjük. A 15. században már álló templom melletti temetkezési helyet a lakosság egészen gróf Grassalkovich Antal építkezésének kezdetéig, az 1730-as évekig használhatta. A kastély építésekor ezt a temetőt felszámolták, Grassalkovich új temetőt jelölt ki a falu határain kívül. Ez a mai református temető egy része (Dózsa György út). Az építkezésen kívül eső sírokat nem bolygatták, amit onnan tudunk, hogy 1967-ben, vízvezeték fektetése közben több sírt is átvágtak a munkások. A leletmentés során hódoltság kori gyermeksírok kerültek elő. A kiállításon egy hajdan élt gödöllői kislány arc- és párta rekonstrukciója is látható.
+  </p>
+
+  <script>
+  var content = document.getElementById("szoveg");
+  var smallButton = document.getElementById("small");
+  var normalButton = document.getElementById("normal");
+  var largeButton = document.getElementById("large");
+  smallButton.onclick = function(e){
+  content.style.fontSize = "26px";
+  }
+  normalButton.onclick = function(e){
+  content.style.fontSize = "33px";
+  }
+  largeButton.onclick = function(e){
+  content.style.fontSize = "40px";
+  }
+  </script>
+
+
+    <script src="js/jquery-3.1.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

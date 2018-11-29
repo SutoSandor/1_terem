@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/costum.css">
+  <script src="js/jquery-3.1.1.slim.min.js"></script>
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+  <script src="js/jquery.fancybox.min.js"></script>
+
+  <title>Tartalom</title>
+
+</head>
+<body class="iframe_tartalmak" name="tartalmak">
+
+  <input type = "button" value = "Normal font size" id = "small" class="btn"/> <input type = "button" value = "Large font size" id = "normal" class="btn"/> <input type = "button" value = "Extra Large font size" id = "large" class="btn"/>
+
+  <h1>Gödöllő in the 18th century</h1>
+  <br>
+
+  <p id="szoveg">
+Antal Grassalkovich I. (1694-1771) was an important political and economic figure in the 18th century Hungary.
+<br><br>
+Huge changes occurred in our village after he bought every part of Gödöllő in several years, and made it the center of his Pest and Heves county estates. He became the only owner of the settlement in 1748, previously he had to share it with Krisztina Bossányi, and after her death (1737) her heirs. It is certain that in 1735 he had permanent residence in Gödöllő. Since there was no building in the settlement that was suitable for an aristocratic residency, he built a beautiful mansion for his family.
+<br><br>
+Next to the representative residence he had to develop the village, settle in serfs to cultivate the land, and at the same time he had to make an organization to maintain his power and manage his estate. He provided favorable conditions for the village to thrive,  with a market town status and taxation conditions laid down in the urbarium. For a royalist Baroque lord it was important to support the Catholic Church in an outstanding manner. The large landowner, who was living an exemplary religious life, gained further prestige by turning Besnyő into a place of pilgrimage.
+<br><br>
+He installed the curial village in 1753-54 mainly with German and Hungarian craftsmen. New streets were built for the settled:  the western and eastern part of today's Kossuth Lajos street, as well as some of the houses of today's Szabadság Square. The German settlers received a German-style house in Gödöllő, tools and five years of tax relief. Next to them Roma population appeared as well in greater numbers.
+<br><br>
+In 1763 Gödöllő became a market town (oppidum) from curial village. The significance of this, besides  the favorable tax conditions, was the right to hold a market, with which the landlord wanted to promote trade opportunities. There were four days every year, when markets could be hold:  on May 20th (Corpus Christi), 29th June  (Peter and Paul day), 1st October (St. Remigius day) and 13th December (Luca day). The fair was held on market days,  mornings only. A day earlier there was the cattle market.
+<br><br>
+The cash income-oriented land policy of Antal Grassalkovich II. (1734-1794) and III. (1771-1841) no longer supported the serfs, so the market town did not progress further.
+  </p>
+
+  <script>
+  var content = document.getElementById("szoveg");
+  var smallButton = document.getElementById("small");
+  var normalButton = document.getElementById("normal");
+  var largeButton = document.getElementById("large");
+  smallButton.onclick = function(e){
+  content.style.fontSize = "26px";
+  }
+  normalButton.onclick = function(e){
+  content.style.fontSize = "33px";
+  }
+  largeButton.onclick = function(e){
+  content.style.fontSize = "40px";
+  }
+  </script>
+
+
+    <script src="js/jquery-3.1.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

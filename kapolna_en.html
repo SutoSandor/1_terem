@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/costum.css">
+  <script src="js/jquery-3.1.1.slim.min.js"></script>
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+  <script src="js/jquery.fancybox.min.js"></script>
+
+  <title></title>
+
+</head>
+<body class="iframe_tartalmak" name="tartalmak">
+
+  <input type = "button" value = "Normal font size" id = "small" class="btn"/> <input type = "button" value = "Large font size" id = "normal" class="btn"/> <input type = "button" value = "Extra Large font size" id = "large" class="btn"/>
+
+  <h1>The Castle Chapel</h1><br>
+  <p id="szoveg">
+    The chapel was consecrated in honor of St. John of Nepomuk on May 16, 1749 by the bishop of Vác, Mihály Károly Althan. Initially, the chapel was the filia (branch church) of the Roman Catholic Parish of Isaszeg, which meant that the priest of Isaszeg was the leader of the Catholic Chapel in Gödöllő, and on the site there was a chaplain who did the pastoral duties. The first known chaplain was the monk Pater Maurus Menyhardt.
+    <br><br>
+    Between 1773 and 1811 the chaplains came from among the Capuchins of Besnyő. The Bishop of Vác in 1811 ordered that  the castle chapel should work with a private secular priest. The establishment of the independent parish can be dated to 1838.
+    <br><br>
+    The church has five altars, the main altar was consecrated in honor of St. John Nepomuk. Inside the church there are two choirs. On one of them there is the organ dated 1827, which was the gift of the actual patron, Antal Grassalkovich III., and on the other choir there was Christ's tomb, which was used in ceremonies during the Holy Week (the last week of Lent, from Palm Sunday to Holy Saturday). The baptismal font is made of finely crafted red marble. The curiosity of the church is the two pulpits.
+    <br><br>
+    The bell tower was standing next to the church tower and there were four bells in it. The largest 4-ton bell was made in 1772 in Pest. All four were the donations of  Antal Grassalkovich I.
+    <br><br>
+    During the 19th century, major repairs of the church were carried out in 1838 and in 1870 . Later (in 1930) during the time of Arpad Schlager parish priest , the castle chapel was also renovated. Until 1936 the obtaining of the parish rank, Máriabesnyő also belonged to Gödöllő.
+    <br><br>
+    The tasks of the Castle Chapel are nowadays performed by the Holy Trinity Church.
+
+
+  </p>
+
+
+  <script>
+  var content = document.getElementById("szoveg");
+  var smallButton = document.getElementById("small");
+  var normalButton = document.getElementById("normal");
+  var largeButton = document.getElementById("large");
+  smallButton.onclick = function(e){
+  content.style.fontSize = "26px";
+  }
+  normalButton.onclick = function(e){
+  content.style.fontSize = "33px";
+  }
+  largeButton.onclick = function(e){
+  content.style.fontSize = "40px";
+  }
+  </script>
+
+
+    <script src="js/jquery-3.1.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

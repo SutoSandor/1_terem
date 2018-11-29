@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/costum.css">
+  <title>Tartalom</title>
+
+</head>
+<body class="iframe_tartalmak" name="tartalmak">
+
+  <input type = "button" value = "Normál betűméret" id = "small" class="btn"/> <input type = "button" value = "Nagy betűméret" id = "normal" class="btn"/> <input type = "button" value = "Extranagy betűméret" id = "large" class="btn"/>
+
+  <h1>Gödöllő az őskorban és az ókorban a népvándorlás koráig</h1>
+  <br>
+
+  <p id="szoveg">
+  Gödöllő és környéke az őskor különböző szakaszaiban 3 fő „kultúrkörhöz” tartozott. Az őskőkorból (paleolitikum Kr. e. 500000–10000) és az átmeneti kőkorból (mezolitikum Kr. e. 10000–6000) eddig nem ismerünk gödöllői leletet. Városunkban az újkőkor (neolitikum) középső szakaszából, a Kr. e. 5400/5300–5000/4900 közötti időszakból származnak az első emlékek.<br><br>
+  Ekkor a patakok, vízfolyások mellett megtelepedett emberek földműveléssel és állattenyésztéssel foglalkoztak. A dunántúli vonaldíszes kultúrához tartozó népesség élt a Gödöllői-dombság területén. Vesszőfonatos, tapasztott falú házakban laktak, kézzel formált agyagedényeket készítettek. Fontos volt a szövés-fonás megjelenése, a pattintott kőeszközök mellett csiszolt, átfúrt kőeszközöket is használtak. A Malom dűlő és a Remete-forrás mellett a városközpontból is kerültek elő edénytöredékek.<br><br>
+  A letelepedett életmód térhódítása után hatalmas fejlődést jelentett a fémművesség feltalálása. A hűvösebb, csapadékosabb rézkorból (Kr. e. 4500/4400–2800/2700) a bodrogkeresztúri kultúra edénytöredékei, edényei kerültek elő. Egy 1926-ban feltárt sírban hosszú pengéjű réz kést találtak. Ugyanakkor nyugati hatások is érték az itt élőket, erről tűzdelt barázdás díszítésű edénytöredék tanúskodik. A késő rézkorban megjelenő badeni/péceli kultúra kocsi ábrázolásainak településünkön nem maradt fenn emléke.<br><br>
+  A Kr. e. 3. évezred közepén kezdődő bronzkor meghatározó eleme az új nyersanyag megjelenése, melyet rézből és ón vagy antimon ötvözetéből készítettek. A fémművesség emlékei az Öreghegyen talált karperec és az Alsómajorból származó lándzsahegy. A középső bronzkor során jöttek létre a többrétegű települések, lakódombok, melyek a hatvani kultúra ismertető jegyei. A kultúra településeinek egy részét erődítésekkel, árkokkal védték. Ilyen földvárak találhatóak Gödöllő környékén is (Aszód, Pécel, Valkó, Zsámbok). Jellemző a hamvasztásos temetés, ilyen sírmelléklet volt a múzeumunkban látható két edény is. Az Alsóparkban a későbronzkori halomsíros kultúra emlékeire bukkantak az 1950-es években.<br><br>
+  Gödöllőn és környékén a kora- és közép vaskorban (Kr. e. 900–450) az iráni eredetű szkíta kultúrával jelent meg a fazekaskorong használata és az új nyersanyag, a vas elterjedése. Az őskort lezáró késő vaskorban (Kr. e. 450–Kr. születése körül) a Nyugat- Európából érkező kelta népesség lakja a Kárpát-medence nagy részét. Gödöllő területén több lelőhely bizonyítja a kelták megjelenését. Sajnos az 1960-as években megtalált leletek nem kerültek múzeumba, elkallódtak.
+  </p>
+
+  <script>
+  var content = document.getElementById("szoveg");
+  var smallButton = document.getElementById("small");
+  var normalButton = document.getElementById("normal");
+  var largeButton = document.getElementById("large");
+  smallButton.onclick = function(e){
+  content.style.fontSize = "26px";
+  }
+  normalButton.onclick = function(e){
+  content.style.fontSize = "33px";
+  }
+  largeButton.onclick = function(e){
+  content.style.fontSize = "40px";
+  }
+  </script>
+
+
+    <script src="js/jquery-3.1.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

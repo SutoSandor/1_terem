@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/costum.css">
+  <script src="js/jquery-3.1.1.slim.min.js"></script>
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+  <script src="js/jquery.fancybox.min.js"></script>
+
+  <title></title>
+
+</head>
+<body class="iframe_tartalmak" name="tartalmak">
+
+  <input type = "button" value = "Normal font size" id = "small" class="btn"/> <input type = "button" value = "Large font size" id = "normal" class="btn"/> <input type = "button" value = "Extra Large font size" id = "large" class="btn"/>
+
+  <h1>Gödöllő in the 16-17th centuries</h1>
+  <p id="szoveg">
+  In the year 1541 after the capture of Buda, Gödöllő and its surroundings got also in the hands of the Turks. We can get information about its fate mainly based on the census of the Buda Sanjak (administrative district).
+  <br><br>
+  Despite the conquest the peasant village was inhabited until the end of the 16th century, moreover,  in the middle of the century, the population of Besnyő moved to Gödöllő too.  The village was deserted during the Fifteen Years' War (1593-1606). Between 1594 and 1649 it was registered as wasteland, its  fields were leased to the inhabitants of other villages.
+  <br><br>
+  When the serfs moved back the landlords did as well. Besides the arrangement of the residential and cultivation areas it was essential to set the old boundaries again. The long border dispute of Gödöllő and Szada began then. The village provosts were elected , the church was renovated. The returning residents, both old and new Gödöllő families were of Protestant faith. The building of the mill which stood on the Rákos-stream was most likely connected to the moving back also, but it was only mentioned in sources a half century later.
+  <br><br>
+  As an occupied area, from the capture of Buda until of ​​its recapture  (1686), the peasants of Gödöllő and Besnyő had both Turkish and Hungarian rulers, and they were taxed double. In the mid-17th century, after the repatriation Gödöllő was the feud of Mustafa sipahi, who was a resident of Buda. From the Hungarian landholders of the century, before 1620, we know only Ferenc Aszalay. His daughter, Erzsébet became the wife of István kürthy Vámossy. Through the marriage István Vámossy and his sister, Erzsébet became lords of Gödöllő. Erzsébet's first husband was Mihály noszvay Figedi († before 1640), the second was János Hamvay. Their child was Ferenc Hamvay  († before 1669), sheriff, county ambassador, a major Gödöllő landowner, whose name was connected to the building of a mansion and the transformation of the settlement into a curial village. This meant favorable tax conditions.
+  <br><br>
+  The marriage of Ferenc  Hamvay with Judit Mocsáry remained childless. Judit Mocsáry's second husband was Miklós nagyugróci Bossányi. From Bossányi 's first marriage came Krisztina Bossányi (c. 1671 -1737), the strong landowner of the town, from whom Antal Grassalkovich I could not get the village.
+  <br><br>
+  During  the fighting for the recapture  of Buda Gödöllő briefly became deserted again. Next to the Bossányis, after the recapture (1686) came János Verlain chamber inspector then Baron Ferenc Lew as landowners.
+  
+  </p>
+
+  <script>
+  var content = document.getElementById("szoveg");
+  var smallButton = document.getElementById("small");
+  var normalButton = document.getElementById("normal");
+  var largeButton = document.getElementById("large");
+  smallButton.onclick = function(e){
+  content.style.fontSize = "26px";
+  }
+  normalButton.onclick = function(e){
+  content.style.fontSize = "33px";
+  }
+  largeButton.onclick = function(e){
+  content.style.fontSize = "40px";
+  }
+  </script>
+
+
+    <script src="js/jquery-3.1.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

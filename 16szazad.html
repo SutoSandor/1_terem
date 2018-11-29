@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/costum.css">
+  <script src="js/jquery-3.1.1.slim.min.js"></script>
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+  <script src="js/jquery.fancybox.min.js"></script>
+
+  <title></title>
+
+</head>
+<body class="iframe_tartalmak" name="tartalmak">
+
+  <input type = "button" value = "Normál betűméret" id = "small" class="btn"/> <input type = "button" value = "Nagy betűméret" id = "normal" class="btn"/> <input type = "button" value = "Extranagy betűméret" id = "large" class="btn"/>
+
+  <h1>Gödöllő a 16-17. században</h1>
+  <p id="szoveg">
+  Buda 1541. évi elfoglalása után Gödöllő és környéke is török kézre került. Sorsáról elsősorban a budai szandzsák (közigazgatási kerület) összeírásai alapján tájékozódhatunk.
+  <br><br>
+  A hódítás ellenére a jobbágyfalu a 16. század végéig lakott volt, sőt a század közepén Besnyő lakossága is Gödöllőre költözött. A falu a tizenötéves háború (1593-1606) alatt elnéptelenedett. 1594 és 1649 között pusztaként tartották nyilván, földjeit más települések lakói bérelték.
+  <br><br>
+  Visszaköltözéskor a jobbágyok mellett a földesurak is visszatértek. A lakóhely és a művelési területek kialakítása mellett lényeges volt a régi határok ismételt kijelölése. Gödöllő és Szada hosszú határvitája ekkor kezdődött. Megválasztották a falu elöljáróit, felújították a templomot. A visszatérő lakosok, régi gödöllői és új családok egyaránt már református vallásúak voltak. Feltehetően a visszaköltözéshez köthető a malom építése is, mely a Rákos-patakon állt, de csak fél évszázaddal későbbi források említik.
+  <br><br>
+  Hódoltsági területként Buda elfoglalásától annak felszabadításáig (1686) török és magyar urai egyaránt voltak a gödöllői és besnyői parasztoknak, kik kétfelé adóztak. A 17. század közepén, a visszatelepülést követően a Budán lakó Musztafa szpáhi hűbérbirtoka volt Gödöllő. A század magyar birtokosai közül 1620 előttről ismert Aszalay Ferenc. Leánya, Erzsébet kürthy Vámossy István felesége lett. A házasság révén Gödöllő ura Vámossy István és testvére, Erzsébet lett Erzsébet első férje noszvay Figedi Mihály († 1640 előtt), második Hamvay János volt. Az ő gyermekük Hamvay Ferenc (†1669 előtt) szolgabíró, vármegyei követ, Gödöllő jelentős földesura, kinek nevéhez kúria építése és a település kuriális faluvá emelése kötődik. Ez kedvezőbb adózási feltételeket jelentett.
+  <br><br>
+  Hamvay Ferencnek Mocsáry Judittal kötött házassága gyermektelen maradt. Mocsáry Judit második férje nagyugróci Bossányi Miklós lett. Bossányi első házasságából származott Bossányi Krisztina (1671 k.–1737), a település erős földesasszonya, kitől Grassalkovich I. Antal nem tudta megszerezni a falu birtokjogát.
+  <br><br>
+  A Buda felszabadítása miatti harcok idejére Gödöllő rövid időre ismét elnéptelenedett. A Bossányiak mellett a felszabadítás (1686) után jelent meg birtokosként Verlain János kamarai inspektor, majd báró Lew Ferenc.
+
+
+  
+
+  </p>
+
+  <script>
+  var content = document.getElementById("szoveg");
+  var smallButton = document.getElementById("small");
+  var normalButton = document.getElementById("normal");
+  var largeButton = document.getElementById("large");
+  smallButton.onclick = function(e){
+  content.style.fontSize = "26px";
+  }
+  normalButton.onclick = function(e){
+  content.style.fontSize = "33px";
+  }
+  largeButton.onclick = function(e){
+  content.style.fontSize = "40px";
+  }
+  </script>
+
+
+    <script src="js/jquery-3.1.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+</body>
+</html>
